@@ -50,6 +50,19 @@
   }
 }
 
+.mb-small {
+  margin-bottom: 2rem;
+}
+.mb-medium {
+  margin-bottom: 3rem;
+}
+.mb-large {
+  margin-bottom: 4rem;
+}
+.mb-huge {
+  margin-bottom: 8rem;
+}
+
 .btn {
   background-color: $color-primary-darker;
   color: #fff;
@@ -65,17 +78,4 @@
   &:hover {
     background-color: $color-primary-dark;
   }
-}
-
-.mb-small {
-  margin-bottom: 2rem;
-}
-.mb-medium {
-  margin-bottom: 3rem;
-}
-.mb-large {
-  margin-bottom: 4rem;
-}
-.mb-huge {
-  margin-bottom: 8rem;
 }
