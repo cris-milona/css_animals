@@ -1,0 +1,79 @@
+.animals {
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 7rem;
+
+  @media screen and (max-width: $bp-390) {
+    margin: 9rem 0;
+  }
+}
+
+.animal {
+  background-color: $color-grey-light-1;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  &__img {
+    // grid-area: 1/1/2/3;
+    width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    z-index: 1;
+    display: block;
+  }
+
+  &__star {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    fill: $color-primary;
+    height: 3rem;
+    width: 3rem;
+    z-index: 2;
+    justify-self: end;
+    margin: 1rem;
+  }
+
+  &__name {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+
+    font-family: $font-display;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: $color-secondary;
+    color: #fff;
+    font-weight: 400;
+
+    &-buf,
+    &-gaz,
+    &-chee {
+      transform: translateY(-0.5rem);
+    }
+  }
+
+  &__location,
+  &__family,
+  &__population,
+  &__danger {
+    font-size: 1.5rem;
+    margin: 1rem;
+    display: flex;
+    align-items: start;
+
+    svg {
+      fill: $color-primary;
+      height: 2rem;
+      width: 2rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &__btn {
+    grid-column: 1/-1;
+  }
+}

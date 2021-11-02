@@ -1,0 +1,58 @@
+.header {
+  grid-column: full-start / col-end 6;
+  background-image: linear-gradient(
+      rgba($color-secondary, 0.73),
+      rgba($color-secondary, 0.73)
+    ),
+    url('../img/africa-1.jpg');
+  background-size: cover;
+  padding: 6rem;
+
+  display: grid;
+  grid-template-rows: 35vh 8rem 7vh;
+  grid-template-columns: 55vw;
+  row-gap: 1.5rem;
+
+  @media screen and (max-width: $bp-648) {
+    grid-column: full-start / full-end;
+    grid-row: 2 /3;
+
+    display: grid;
+    grid-template-rows: 29vh 8rem 7vh;
+    grid-template-columns: 80vw;
+    row-gap: 1.5rem;
+  }
+
+  @media screen and (max-width: $bp-460) {
+    grid-template-rows: 17vh 8rem 7vh;
+  }
+
+  @media screen and (min-width: $bp-3840) {
+    grid-column: center-start / center-end;
+  }
+
+  &__title {
+    justify-self: start;
+    align-self: end;
+
+    @media screen and (max-width: $bp-784) {
+      font-size: 3rem;
+    }
+  }
+
+  &__logo {
+    height: 20%;
+    justify-self: end;
+
+    @media screen and (max-width: $bp-460) {
+      height: 30%;
+    }
+  }
+
+  &__btn {
+    background-color: $color-primary-darker;
+    width: 30%;
+    align-self: end;
+    justify-self: start;
+  }
+}

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="img/favicon_io/favicon.ico"
+    />
+
+    <title>Animalistic</title>
+  </head>
+  <body class="container">
+    <div class="sidebar">
+      <button class="nav-btn" aria-label="Home"></button>
+    </div>
+    <header class="header">
+      <img src="img/logo_transparent.png" alt="logo" class="header__logo" />
+      <h1 class="heading-1 header__title">Nature is what matters</h1>
+      <button class="btn header__btn">Visit us</button>
+    </header>
+    <div class="staff">
+      <h3 class="heading-3">Meet our Staff</h3>
+      <div class="staff__list">
+        <img
+          srcset="
+            img/staff_Ayo-Toure-1x.jpg 300w,
+            img/staff_Ayo-Toure-2x.jpg 600w
+          "
+          sizes="(max-width: 1090px): 29vw, (min-width: 3840px): 38vw, 300px"
+          alt="Ayo Toure"
+        />
+        <div class="staff__details">
+          <h4 class="heading-4--light">Ayo Toure</h4>
+          <p class="staff__experience">12 years with us</p>
+        </div>
+        <img
+          srcset="
+            img/staff_Rudo-Oyinlola-1x.jpg 280w,
+            img/staff_Rudo-Oyinlola-2x.jpg 380w
+          "
+          sizes="(max-width: 1090px): 29vw, (min-width: 3840px): 38vw, 280px"
+          alt="Rudo Oyinlola"
+        />
+        <div class="staff__details">
+          <h4 class="heading-4--light">Rudo Oyinlola</h4>
+          <p class="staff__experience">11 years with us</p>
+        </div>
+        <img
+          srcset="
+            img/staff_Aduke-Abara-1x.jpg 320w,
+            img/staff_Aduke-Abara-2x.jpg 640w
+          "
+          sizes="(max-width: 1090px): 29vw, (min-width: 3840px): 38vw, 320px"
+          alt="Aduke Abara"
+        />
+        <div class="staff__details">
+          <h4 class="heading-4--light">Aduke Abara</h4>
+          <p class="staff__experience">9 years with us</p>
+        </div>
+      </div>
+    </div>
+    <section class="features">
+      <div class="feature">
+        <svg class="feature__icon">
+          <use href="img/sprite.svg#icon-aid-kit"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">Rescue and Rehab</h4>
+        <p class="features__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum
+          has been the industry's standard dummy text ever since the 1500s.
+        </p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use href="img/sprite.svg#icon-calendar"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">Events</h4>
+        <p class="features__text">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use href="img/sprite.svg#icon-book"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">Education</h4>
+        <p class="features__text">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old.
+        </p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use href="img/sprite.svg#icon-volunteer_activism"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">Volunteer</h4>
+        <p class="features__text">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly
+          believable.There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by
+          injected humour, or randomised word
+        </p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use href="img/sprite.svg#icon-coin-dollar"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">Donate</h4>
+        <p class="features__text">
+          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+          below for those interested.
+        </p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use href="img/sprite.svg#icon-cart"></use>
+        </svg>
+        <h4 class="heading-4 heading-4--dark">E-Shop</h4>
+        <p class="features__text">
+          All the Lorem Ipsum generators on the Internet tend to repeat
+          predefined chunks as necessary, making this the first true generator
+          on the Internet.
+        </p>
+      </div>
+    </section>
+    <div class="story__pictures">
+      <img
+        srcset="img/africa-2-1x.jpg 1200w, img/africa-2-2x.jpg 2500w"
+        sizes="(max-width: 1090px): 2vw, (min-width: 3840px): 1vw, 1200px"
+        alt="girafe"
+        class="story__img--1"
+      />
+    </div>
+    <div class="story__content">
+      <h3 class="heading-3 mb-small">People's reviews</h3>
+      <h2 class="heading-2 heading-2--dark mb-medium">
+        &ldquo;Amazing experience&rdquo;
+      </h2>
+      <p class="story__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam
+        tempore quas itaque ea nesciunt error laborum aperiam quod voluptatibus,
+        sit, harum ullam provident distinctio laudantium, expedita nulla
+        perferendis commodi.
+      </p>
+      <button class="btn">Read more experiences</button>
+    </div>
+    <section class="animals">
+      <div class="animal">
+        <img
+          srcset="img/rhino-1x.jpg 320w, img/rhino-2x.jpg 640w"
+          sizes="(max-width: 1090px): 4vw, (min-width: 3840px): 12vw, 320px"
+          alt="rhino"
+          class="animal__img"
+        />
+        <svg class="animal__star">
+          <use href="img/sprite.svg#icon-star"></use>
+        </svg>
+        <h5 class="animal__name">Rhinoceros</h5>
+        <div class="animal__location">
+          <svg>
+            <use href="img/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <p>Africa</p>
+        </div>
+        <div class="animal__family">
+          <svg>
+            <use href="img/sprite.svg#icon-tree"></use>
+          </svg>
+          <p>Rhinocerotidae</p>
+        </div>
+        <div class="animal__population">
+          <svg>
+            <use href="img/sprite.svg#icon-bar-graph"></use>
+          </svg>
+          <p>10,080</p>
+        </div>
+        <div class="animal__danger">
+          <svg>
+            <use href="img/sprite.svg#icon-info1"></use>
+          </svg>
+          <p>Near Threatened</p>
+        </div>
+        <button class="btn animal__btn">Read more</button>
+      </div>
+
+      <div class="animal">
+        <img
+          srcset="img/water-buffalo-1x.jpg 240w, img/water-buffalo-2x.jpg 960w"
+          sizes="(max-width: 1090px): 4vw, (min-width: 3840px): 12vw, 240px"
+          alt="water buffalo"
+          class="animal__img"
+        />
+        <svg class="animal__star">
+          <use href="img/sprite.svg#icon-star"></use>
+        </svg>
+        <h5 class="animal__name animal__name-buf">Water Buffalo</h5>
+
+        <div class="animal__location">
+          <svg>
+            <use href="img/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <p>Africa</p>
+        </div>
+        <div class="animal__family">
+          <svg>
+            <use href="img/sprite.svg#icon-tree"></use>
+          </svg>
+          <p>Bovidae</p>
+        </div>
+        <div class="animal__population">
+          <svg>
+            <use href="img/sprite.svg#icon-bar-graph"></use>
+          </svg>
+          <p>2,500</p>
+        </div>
+        <div class="animal__danger">
+          <svg>
+            <use href="img/sprite.svg#icon-info1"></use>
+          </svg>
+          <p>Endangered</p>
+        </div>
+
+        <button class="btn animal__btn">Read more</button>
+      </div>
+      <div class="animal">
+        <img
+          srcset="img/green-mamba-1x.jpg 370w, img/green-mamba-2x.jpg 750w"
+          sizes="(max-width: 1090px): 4vw, (min-width: 3840px): 12vw, 370px"
+          alt="green mamba"
+          class="animal__img"
+        />
+        <svg class="animal__star">
+          <use href="img/sprite.svg#icon-star"></use>
+        </svg>
+        <h5 class="animal__name">Green Mamba</h5>
+
+        <div class="animal__location">
+          <svg>
+            <use href="img/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <p>Africa</p>
+        </div>
+        <div class="animal__family">
+          <svg>
+            <use href="img/sprite.svg#icon-tree"></use>
+          </svg>
+          <p>Elapidae</p>
+        </div>
+        <div class="animal__population">
+          <svg>
+            <use href="img/sprite.svg#icon-bar-graph"></use>
+          </svg>
+          <p>Unknown</p>
+        </div>
+        <div class="animal__danger">
+          <svg>
+            <use href="img/sprite.svg#icon-info1"></use>
+          </svg>
+          <p>Least Concern</p>
+        </div>
+
+        <button class="btn animal__btn">Read more</button>
+      </div>
+      <div class="animal">
+        <img
+          srcset="img/gazelle-1x.jpg 370w, img/gazelle-2x.jpg 750w"
+          sizes="(max-width: 1090px): 4vw, (min-width: 3840px): 12vw, 370px"
+          alt="gazelle"
+          class="animal__img"
+        />
+        <svg class="animal__star">
+          <use href="img/sprite.svg#icon-star"></use>
+        </svg>
+        <h5 class="animal__name animal__name-gaz">Gazelle</h5>
+
+        <div class="animal__location">
+          <svg>
+            <use href="img/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <p>Africa</p>
+        </div>
+        <div class="animal__family">
+          <svg>
+            <use href="img/sprite.svg#icon-tree"></use>
+          </svg>
+          <p>Bovidae</p>
+        </div>
+        <div class="animal__population">
+          <svg>
+            <use href="img/sprite.svg#icon-bar-graph"></use>
+          </svg>
+          <p>4,500</p>
+        </div>
+        <div class="animal__danger">
+          <svg>
+            <use href="img/sprite.svg#icon-info1"></use>
+          </svg>
+          <p>Vulnerable</p>
+        </div>
+
+        <button class="btn animal__btn">Read more</button>
+      </div>
+      <div class="animal">
+        <img
+          srcset="img/crocodile-1x.jpg 280w, img/crocodile-2x.jpg 750w"
+          sizes="(max-width: 1090px): 4vw, (min-width: 3840px): 12vw, 280px"
+          alt="crocodile"
+          class="animal__img"
+        />
+        <svg class="animal__star">
+          <use href="img/sprite.svg#icon-star"></use>
+        </svg>
+        <h5 class="animal__name">Crocodile</h5>
+
+        <div class="animal__location">
+          <svg>
+            <use href="img/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <p>Africa</p>
+        </div>
+        <div class="animal__family">
+          <svg>
+            <use href="img/sprite.svg#icon-tree"></use>
+          </svg>
+          <p>Crocodylidae</p>
+        </div>
+        <div class="animal__population">
+          <svg>
+            <use href="img/sprite.svg#icon-bar-graph"></use>
+          </svg>
+          <p>60,000</p>
+        </div>
+        <div class="animal__danger">
+          <svg>
+            <use href="img/sprite.svg#icon-info1"></use>
+          </svg>
+          <p>Least Concern</p>
+        </div>
+        <button class="btn animal__btn">Read more</button>
+      </div>
+
+      <div class="animal">
+        <img
+          srcset="img/cheetah-1x.jpg 240w, img/cheetah-2x.jpg 970w"
+          sizes="(max-width: 1090px): 4vw, (min-width: 3840px): 12vw, 240px"
+          alt="cheetah"
+          class="animal__img"
+        />
+        <svg class="animal__star">
+          <use href="img/sprite.svg#icon-star"></use>
+        </svg>
+        <h5 class="animal__name animal__name-chee">Cheetah</h5>
+
+        <div class="animal__location">
+          <svg>
+            <use href="img/sprite.svg#icon-location-pin"></use>
+          </svg>
+          <p>Africa</p>
+        </div>
+        <div class="animal__family">
+          <svg>
+            <use href="img/sprite.svg#icon-tree"></use>
+          </svg>
+          <p>Felidae</p>
+        </div>
+        <div class="animal__population">
+          <svg>
+            <use href="img/sprite.svg#icon-bar-graph"></use>
+          </svg>
+          <p>6,674</p>
+        </div>
+        <div class="animal__danger">
+          <svg>
+            <use href="img/sprite.svg#icon-info1"></use>
+          </svg>
+          <p>Vulnerable</p>
+        </div>
+
+        <button class="btn animal__btn">Read more</button>
+      </div>
+    </section>
+    <section class="gallery">
+      <figure class="gallery__item gallery__item--1">
+        <img
+          srcset="img/lemur-1x.jpg 340w, img/lemur-2x.jpg 1300w"
+          sizes="(max-width: 1090px): 5vw, (min-width: 3840px): 4vw, 340px"
+          alt="lemur"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+        <img
+          srcset="img/elephant-1x.jpg 350w, img/elephant-2x.jpg 1400w"
+          sizes="(max-width: 1090px): 3vw, (min-width: 3840px): 2vw, 350px"
+          alt="elephant"
+          class="gallery__img"
+        />
+      </figure>
+
+      <figure class="gallery__item gallery__item--3">
+        <img
+          srcset="img/tiger-1x.jpg 250w, img/tiger-2x.jpg 1000w"
+          sizes="(max-width: 1090px): 10vw, (min-width: 3840px): 8vw, 250px"
+          alt="tiger"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <img
+          srcset="img/turtle-1x.jpg 230w, img/turtle-2x.jpg 940w"
+          sizes="(max-width: 1090px): 5vw, (min-width: 3840px): 4vw, 230px"
+          alt="turtle"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <img
+          srcset="img/ostrich-1x.jpg 250w, img/ostrich-2x.jpg 1000w"
+          sizes="(max-width: 1090px): 5vw, (min-width: 3840px): 4vw, 250px"
+          alt="ostritch"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img
+          srcset="img/parrot-1x.jpg 460w, img/parrot-2x.jpg 960w"
+          sizes="(max-width: 1090px): 5vw, (min-width: 3840px): 4vw, 460px"
+          alt="parrot"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--7">
+        <img
+          srcset="img/hyena-1x.jpg 340w, img/hyena-2x.jpg 1300w"
+          sizes="(max-width: 1090px): 10vw, (min-width: 3840px): 8vw, 340px"
+          alt="hyena"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--8">
+        <img
+          srcset="img/wildebeest-1x.jpg 360w, img/wildebeest-2x.jpg 1400w"
+          sizes="(max-width: 1090px): 5vw, (min-width: 3840px): 4vw, 360px"
+          alt="wildebeest"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--9">
+        <img
+          srcset="img/lion-1x.jpg 320w, img/lion-2x.jpg 1200w"
+          sizes="(max-width: 1090px): 10vw, (min-width: 3840px): 8vw, 320px"
+          alt="lion"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--10">
+        <img
+          srcset="img/toucan-1x.jpg 370w, img/toucan-2x.jpg 960w"
+          sizes="(max-width: 1090px): 10vw, (min-width: 3840px): 8vw, 370px"
+          alt="toucan"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--11">
+        <img
+          srcset="img/leopard-1x.jpg 250w, img/leopard-2x.jpg 1000w"
+          sizes="(max-width: 1090px): 4vw, (min-width: 3840px): 5vw, 250px"
+          alt="parrot"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--12">
+        <img
+          srcset="img/flamingo-1x.jpg 350w, img/flamingo-2x.jpg 1000w"
+          sizes="(max-width: 1090px): 10vw, (min-width: 3840px): 8vw, 350px"
+          alt="flamingo"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--13">
+        <img
+          srcset="img/hippo-1x.jpg 430w, img/hippo-2x.jpg 1300w"
+          sizes="(max-width: 1090px): 3vw, (min-width: 3840px): 2vw, 430px"
+          alt="hippo"
+          class="gallery__img"
+        />
+      </figure>
+      <figure class="gallery__item gallery__item--14">
+        <img
+          srcset="img/koala-1x.jpg 350w, img/koala-2x.jpg 1400w"
+          sizes="(max-width: 1090px): 10vw, (min-width: 3840px): 8vw, 350px"
+          alt="koala"
+          class="gallery__img"
+        />
+      </figure>
+    </section>
+    <footer class="footer">
+      <ul class="nav">
+        <li class="nav__item"><a href="#" class="nav__link">Donate</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">E-shop</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+      </ul>
+      <p class="copyright">&copy; Copyright 2021 by us.</p>
+    </footer>
+  </body>
+</html>
