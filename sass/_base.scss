@@ -79,6 +79,6 @@ body {
   }
 
   @media screen and (min-width: $bp-3840) {
-    grid-template-rows: 6rem calc(70vh - 6rem) 30vh 50vh 50vh 50vh auto auto auto;
+    grid-template-rows: 12rem calc(70vh - 12rem) 15vh 20vh 30vh 40vh auto auto auto;
   }
 }

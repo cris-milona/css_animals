@@ -47,7 +47,7 @@ body {
 }
 @media screen and (min-width: 240em) {
   .container {
-    grid-template-rows: 6rem calc(70vh - 6rem) 30vh 50vh 50vh 50vh auto auto auto;
+    grid-template-rows: 12rem calc(70vh - 12rem) 15vh 20vh 30vh 40vh auto auto auto;
   }
 }
 
@@ -256,6 +256,12 @@ body {
   align-self: end;
   justify-self: start;
 }
+@media screen and (max-width: 240em) {
+  .header {
+    grid-template-rows: 40vh 10rem 4vh;
+    grid-template-columns: 60vw;
+  }
+}
 
 .staff {
   background-color: #101d2c;
@@ -381,7 +387,6 @@ body {
 @media screen and (min-width: 240em) {
   .story__pictures {
     grid-column: center-start/center-end;
-    height: 50vh;
   }
 }
 .story__img--1 {
@@ -419,7 +424,6 @@ body {
 @media screen and (min-width: 240em) {
   .story__content {
     grid-column: center-start/center-end;
-    height: 50vh;
   }
 }
 .story__text {
