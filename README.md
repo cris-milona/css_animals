@@ -4,4 +4,4 @@ This is a simple project including only the Home page of a website, focusing on 
 
 It is a static website that was produced during the lesson of Jonas Schmedtmann, Advanced CSS and Sass in Udemy.
 
-You can find it deployed at https://wildlife-refuge.herokuapp.com
+You can find it deployed at https://wildlife-refuge.herokuapp.com/ 
